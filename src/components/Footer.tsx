@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-ink-2 gap-3">
           <p>© 2026 Eventara Event Planner. All rights reserved.</p>
           <p className="text-xs text-ink-2 font-medium">
-            Designed & developed by aaryaninvincible
+            Designed & developed by C H Bhoomika
           </p>
         </div>
       </div>

@@ -28,8 +28,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const user: UserProfile = {
-      name: isLogin ? (name.trim() || email.split('@')[0] || 'Aryan Raikwar') : name,
-      email: email.trim() || 'aryan@example.com',
+      name: isLogin ? (name.trim() || email.split('@')[0] || 'C H Bhoomika') : name,
+      email: email.trim() || 'bhoomika@example.com',
       phone: phone.trim() || '+91 98765 43210',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
       tier: 'VIP Host',
@@ -41,8 +41,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
 
   const handleDemoSignIn = () => {
     const demoUser: UserProfile = {
-      name: 'Aryan Raikwar',
-      email: 'aryan@utsav.ai',
+      name: 'C H Bhoomika',
+      email: 'bhoomika@utsav.ai',
       phone: '+91 98765 43210',
       tier: 'VIP Host',
     };
@@ -125,7 +125,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Aryan Raikwar"
+                  placeholder="e.g. C H Bhoomika"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="input pl-10 text-sm"
