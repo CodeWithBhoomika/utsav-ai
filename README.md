@@ -99,4 +99,4 @@ npm run build
 
 ## Credits
 
-Designed & developed by C H Bhoomika
+Designed & developed by C H Bhoomika & Aryan
